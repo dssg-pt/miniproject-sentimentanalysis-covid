@@ -1,5 +1,5 @@
-# Mini-Projeto
-Análise de sentimento ao longo do período pandémico, no âmbito do [repositório de dados sobre a COVID-19 em Portugal](https://github.com/dssg-pt/covid19pt-data)
+# Análise de sentimento ao longo do período pandémico 😷😡😊
+[Mini-projeto](https://github.com/dssg-pt/covid19pt-data/issues/154) realizado no âmbito do [repositório de dados sobre a COVID-19 em Portugal](https://github.com/dssg-pt/covid19pt-data)
 
 ## 🤔 Contexto:
 O estado emocional da população tem uma elevada influência na forma como as pessoas reagem às medidas que são impostas e, consequentemente, no sucesso das mesmas. Neste contexto, torna-se relevante avaliar a evolução dos sentimentos mais preponderantes entre a população portuguesa ao longo da pandemia, através da análise de notícias ou de publicações nas redes sociais.
