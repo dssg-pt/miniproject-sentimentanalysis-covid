@@ -7,3 +7,5 @@ wordcloud
 re
 nltk
 string
+vaderSentiment
+IPython
