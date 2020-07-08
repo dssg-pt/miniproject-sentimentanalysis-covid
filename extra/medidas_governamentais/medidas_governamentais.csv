@@ -1,17 +1,120 @@
-08-03-2020,Suspensão de Visitas a estabelecimentos prisionais aos fins de semana
-08-03-2020,"ICBAS, FFUP E escola em Felgueiras Encerradas"
-13-03-2020,"Governo Regional da Madeira ordenou a cessação de todos os voos entre a região e países onde há transmissão ativa de Covid-19, com a exceção do território nacional"
-13-03-2020,Interditado desembarque de passageiros e tripulações dos navios de cruzeiro
-14-03-2020,"A Autoridade Marítima Nacional interditou as praias de todo o país a grupos, proibindo todas as atividades desportivas e de lazer envolvendo mais de cinco pessoas"
-15-03-2020,"Todos os museus, monumentos e palácios nacionais, sob a tutela da Direção-Geral do Património Cultural (DGPC) são encerrados"
-15-03-2020,Governo Regional da Madeira  decretou a quarentena obrigatória a todos os que chegarem ao aeroporto
-15-03-2020,"Limites à circulação da fronteira com Espanha, limitando-a à circulação de trabalhadores transfronteiriços e mercadorias"
-16-03-2020,Fecho de todos os estabelecimentos de ensino
-17-03-2020,Governo decreta Requisição Civil no Porto de Lisboa
-17-03-2020,Governo declara situação de calamidade no município de Ovar
-18-03-2020,Governo apresenta medidas económicas para o segundo trimestre de 2020 como resposta ao estado de emergência.
-18-03-2020,Decretado o estado de emergência em Portugal
-19-03-2020,Voos para fora e de fora da União Europeia 
-19-03-2020,Governo define limitações de deslocação e iniciativa económica
-22-03-2020,Governo determina manutenção do funcionamento dos serviços essenciais
-23-03-2020,"Ministra da Cultura, Graça Fonseca, afirmou que o Governo vai criar uma linha de apoio de emergência, no valor de um milhão de euros"
+08-03-2020,Portugal,Medidas,Suspensão de Visitas a estabelecimentos prisionais aos fins de semana
+08-03-2020,Norte,Medidas,"ICBAS, FFUP E escola em Felgueiras Encerradas"
+12-03-2020,Portugal,Medidas,Restrição de funcionamento de discotecas e estabelecimentos semelhantes
+12-03-2020,Portugal,Medidas,Suspensão de visitas a lares
+12-03-2021,Portugal,Medidas,Limite de pessoas em centros comerciais e serviços públicos
+13-03-2019,Portugal,Alerta,Decretado o Estado de Alerta
+13-03-2020,Madeira,Medidas,"Governo Regional da Madeira ordenou a cessação de todos os voos entre a região e países onde há transmissão ativa de Covid-19, com a exceção do território nacional"
+13-03-2020,Portugal,Medidas,Interditado desembarque de passageiros e tripulações dos navios de cruzeiro
+13-03-2020,Portugal,Medidas,Proibição de eventos em recintos cobertos com mais de 1000 pessoas
+13-03-2020,Portugal,Medidas,Proibição de eventos em ao ar livre com mais de 5000 pessoas
+13-03-2020,Portugal,Medidas,Encerramento de estabelecimentos de restauração e bebidas com salas ou espaços de dança
+14-03-2020,Portugal,Medidas,"A Autoridade Marítima Nacional interditou as praias de todo o país a grupos, proibindo todas as atividades desportivas e de lazer envolvendo mais de cinco pessoas"
+15-03-2020,Portugal,Medidas,"Todos os museus, monumentos e palácios nacionais, sob a tutela da Direção-Geral do Património Cultural (DGPC) são encerrados"
+15-03-2020,Madeira,Medidas,Governo Regional da Madeira  decretou a quarentena obrigatória a todos os que chegarem ao aeroporto
+16-03-2020,Portugal,Medidas,"Limites à circulação da fronteira com Espanha, limitando-a à circulação de trabalhadores transfronteiriços e mercadorias"
+16-03-2020,Portugal,Medidas,Fecho de todos os estabelecimentos de ensino
+16-03-2020,Portugal,Medidas,Reposto temporariamente o controlo documental na fronteira com Espanha
+17-03-2020,Centro,Medidas,Governo decreta Requisição Civil no Porto de Lisboa
+17-03-2020,Norte,Calamidade,Governo declara situação de calamidade no município de Ovar
+17-03-2020,Norte,Medidas,Cerca sanitária a Ovar
+18-03-2020,Portugal,Medidas,Governo apresenta medidas económicas para o segundo trimestre de 2020 como resposta ao estado de emergência.
+18-03-2020,Portugal,Emergência,Decretado o estado de emergência em Portugal
+18-03-2021,Portugal,Medidas,"Confinamento obrigatório para pessoas doentes, infectadas, ou a quem as autoridades de saúde tenham determinado vigilância activa"
+18-03-2022,Portugal,Medidas,Dever de confinamento domicilário excepto para actividades essenciais
+18-03-2023,Portugal,Medidas,"Teletrabalho obrigatório, sempre que possível"
+18-03-2024,Portugal,Medidas,Encerramento de todos os estabelecimentos excepto os que disponibilizem bens e serviços essenciais
+18-03-2025,Portugal,Medidas,Proibição de celebrações religiosas com aglomeração de pessoas
+19-03-2020,Portugal,Medidas,Voos para fora e de fora da União Europeia 
+19-03-2020,Portugal,Medidas,Governo define limitações de deslocação e iniciativa económica
+22-03-2020,Portugal,Medidas,Governo determina manutenção do funcionamento dos serviços essenciais
+23-03-2020,Portugal,Medidas,"Ministra da Cultura, Graça Fonseca, afirmou que o Governo vai criar uma linha de apoio de emergência, no valor de um milhão de euros"
+26-03-2020,Portugal,Medidas,Medidas simplificadas de lay-off e suspensão de contrato a empresas em dificuldades
+02-04-2020,Portugal,Medidas,Limitação da circulação entre concelhos entre 09-04-2020 e 13-04-2020
+02-04-2020,Portugal,Medidas,Proibição de ajuntamentos de mais do que cinco pessoas
+02-04-2020,Norte,Calamidade,Prorrogação da situação de calamidade em Ovar
+02-04-2020,Norte,Medidas,Prorrogação da cerca sanitária a Ovar
+02-04-2020,Portugal,Medidas,"Regime especial de perdão de penas, indulto, saída administrativa e antecipação extraordinária de liberdade condicional"
+03-04-2020,Portugal,Emergência,Prorrogação do Estado de Emergência
+09-04-2020,Portugal,Medidas,Início do terceiro período fixado para 14-04-2020 sem actividades presenciais
+09-04-2020,Portugal,Medidas,Anúncio do início da Telescola a 20-04-2020
+09-04-2020,Portugal,Medidas,"Caso a situação epidemiológica o permita, o 11º e o 12º ano podem voltar às actividades presenciais nas disciplinas com exames a contar para ingresso no Ensino Superior"
+09-04-2020,Portugal,Medidas,"Provas de aferição do 2º, 5º e 8º ano canceladas"
+09-04-2020,Portugal,Medidas,Exames do 9º ano cancelados
+09-04-2020,Portugal,Medidas,Provas a nível de escola realizadas como provas finais do Ensino Básico canceladas
+09-04-2020,Portugal,Medidas,Exames nacionais de alunos internos para efeitos de aprovação de disciplinas e conclusão do Ensino Secundário cancelados
+09-04-2020,Portugal,Medidas,Apenas se realizam os exames que sejam usados como provas de ingresso no Ensino Superior
+09-04-2020,Portugal,Medidas,Prorrogação do controlo de pessoas nas fronteiras até 14-05-2020
+17-04-2020,Portugal,Emergência,Prorrogação do Estado de Emergência
+17-04-2020,Norte,Medidas,Levantamento da cerca sanitária a Ovar
+30-04-2020,Portugal,Desconfinamento,Anúncio do plano de desconfinamento
+03-05-2020,Portugal,Calamidade,Decretado Estado de Calamidade
+04-05-2020,Portugal,Desconfinamento,"Confinamento obrigatório para pessoas doentes,  ou a quem as autoridades de saúde tenham determinado vigilância activa"
+04-05-2020,Portugal,Desconfinamento,Dever cívico de recolhimento domiciliário
+04-05-2020,Portugal,Desconfinamento,Proibição de ajuntamentos com mais de dez pessoas
+04-05-2020,Portugal,Desconfinamento,Lotação máxima de cinco pessoas por cem metros quadrados em espaços fechados
+04-05-2020,Portugal,Desconfinamento,Funerais apenas com a presençã de familiares
+04-05-2020,Portugal,Desconfinamento,Lotação de dois terços nos transportes públicos
+04-05-2020,Portugal,Desconfinamento,Uso obrigatório de máscara nos transportes públicos
+04-05-2020,Portugal,Desconfinamento,Higienização e limpeza dos transportes públicos
+04-05-2020,Portugal,Desconfinamento,"Teletrabalho obrigatório, sempre que possível"
+04-05-2020,Portugal,Desconfinamento,Balcões desconcentrados de atendimento ao público nos serviços públicos
+04-05-2020,Portugal,Desconfinamento,Uso obrigatório de máscara nos serviços públicos
+04-05-2020,Portugal,Desconfinamento,Atendimento em serviços públicos apenas por marcação prévia
+04-05-2020,Portugal,Desconfinamento,Comércio local: lojas com porta aberta para a rua até duzenos metros quadrados
+04-05-2020,Portugal,Desconfinamento,Uso obrigatório de máscara no interior das lojas
+04-05-2020,Portugal,Desconfinamento,Funcionamento de lojas apenas permitido a partir das 10h
+04-05-2020,Portugal,Desconfinamento,"Abertura de cabeleireiros, manicures e similares"
+04-05-2020,Portugal,Desconfinamento,Cabeleireiros e similares apenas com marcação prévia
+04-05-2020,Portugal,Desconfinamento,Abertura de livrarias
+04-05-2020,Portugal,Desconfinamento,Abertura de comércio automóvel
+04-05-2020,Portugal,Desconfinamento,Abertura de bibliotecas e arquivos
+04-05-2020,Portugal,Desconfinamento,"Prática de desportos individuais ao ar livre, sem utilização de balneários nem piscinas"
+07-05-2020,Portugal,Medidas,Proibição de festivais e espectáculos análogos até 30-09-2020
+15-05-2020,Portugal,Calamidade,Prorrogação do estado de Calamidade
+15-05-2020,Portugal,Desconfinamento,Reposição de visitas a lares e afins
+15-05-2020,Portugal,Desconfinamento,Reinício de feiras e mercados
+15-05-2020,Portugal,Desconfinamento,Reabertura de parques de campismo e caravanismo
+15-05-2020,Portugal,Desconfinamento,Divulgadas regras para a reabertura das praias
+15-05-2020,Portugal,Medidas,Resolução para a aquisição de publicidade institucional no âmbito da pandemia
+15-05-2020,Portugal,Desconfinamento,Reabertura dos espaços de inspecção de veículos
+18-05-2020,Portugal,Desconfinamento,Abertura de lojas com porta aberta para a rua até quatrocentos metros quadrados
+18-05-2020,Portugal,Desconfinamento,Abertura de partes de lojas até quatrocentos metros quadrados
+18-05-2020,Portugal,Desconfinamento,Abertura de lojas e partes de lojas com mais de quatrocentos metros quadrados por decisão da autarquia
+18-05-2020,Portugal,Desconfinamento,"Abertura de restaurantes, cafés, pastelarias e esplanadas, com lotação máxima de 50% e funcionamento até às 23h"
+18-05-2020,Portugal,Desconfinamento,"Reinício das actividades presenciais para 11º e 12º anos ou 2º e 3º anos de outras ofertas formativas, entre as 10h e as 17h, com uso obrigatório de máscaras"
+18-05-2020,Portugal,Desconfinamento,"Abertura de equipamentos sociais na área da deficiência, com uso obrigatório de máscaras"
+18-05-2020,Portugal,Desconfinamento,Abertura de creches com opção de apoio à família
+18-05-2020,Portugal,Desconfinamento,"Abertura de museus, monumentos, palácios, galerias de arte e similares"
+30-05-2020,Portugal,Desconfinamento,Celebrações comunitárias de cerimónias religiosas com regras a definir entre DGS e confissões religiosas
+30-05-2020,Portugal,Desconfinamento,Reabertura das competições oficiais da Primeira Liga de futebol e da Taça de Portugal
+01-06-2020,Portugal,Desconfinamento,"Teletrabalho parcial, com horários desfasados ou equipas em espelho"
+01-06-2020,Portugal,Desconfinamento,Abertura de lojas de cidadão
+01-06-2020,Portugal,Desconfinamento,Abertura de lojas com área superior a quatrocentos metros quadrados ou inseridas em centros comerciais
+01-06-2020,Portugal,Desconfinamento,"Abertura de creches, pré-escolar e ATLs"
+01-06-2020,Portugal,Desconfinamento,"Abertura de cinemas, teatros, auditórios e salas de espectáculos, com lugares marcados, lotação reduzida e distanciamento físico"
+09-06-2020,Portugal,Medidas,Aprovação do Orçamento Suplementar para 2020
+09-06-2020,Portugal,Calamidade,Prorrogação da Situação de Calamidade até 28-06-2020
+15-06-2020,Portugal,Desconfinamento,"Fim de limitações especiais para a Área Metropolitana de Lisboa, permitindo o ajuntamento de até 20 pessoas em vez de 10"
+15-06-2020,Portugal,Desconfinamento,Abertura dos parques aquáticos
+15-06-2020,Portugal,Desconfinamento,Abertura das escolas de línguas
+15-06-2020,Portugal,Desconfinamento,Abertura dos centros de explicações
+15-06-2020,Portugal,Desconfinamento,"Estabelecimentos proibidos de abrir antes das 10h, excepto ginásios e academias"
+15-06-2020,Portugal,Medidas,Controlo de fronteiras até 30-06-2020
+23-06-2020,AML,Medidas,Limite de ajuntamentos até 10 pessoas
+23-06-2020,AML,Medidas,"Estabelecimentos fecham às 20h, excepto restauração para serviço de refeições no estabelecimento, take away ou entrega ao domicílio"
+23-06-2020,AML,Medidas,Proibida a venda de bebidas alcoólicas nas áreas de serviço ou postos de abastecimento
+23-06-2020,AML,Medidas,Proibido o consumo de bebidas alcoólicas ao ar livre em espaços públicos
+01-07-2020,Portugal,Alerta,Decretada situação de Alerta em todo o país excepto na AML
+01-07-2020,AML,Contigência,Situação de Contigência na AML excepto em 19 freguesias
+01-07-2020,AML,Calamidade,"Situação de Calamidade em todas as freguesias da Amadora (Alfragida, Águas Livres, Falagueira/Venda Nova, Encosta do Sol, Venteira, Mina de Água)"
+01-07-2020,AML,Calamidade,"Situação de Calamidade em todas as freguesias de Odivelas (Odivelas, Pontinha/Famões, Póvoa de Santo Adrião/Olival Basto, Ramada/Caneças)"
+01-07-2020,AML,Calamidade,"Situação de Calamidade em seis das onze freguesias de Sintra (Agualva/Mira Sintra, Algueirão/Mem Martins, Cacém/São Marcos, Massamá/Monte Abraão, Queluz/Belas, Rio de Mouro)"
+01-07-2020,AML,Calamidade,"Situação de Calamidade em duas das dez freguesias de Loures (Camarate/Unhos/Apelação, Sacavém/Prior Velho)"
+01-07-2020,AML,Calamidade,Situação de Calamidade numa das vinte e quatro fregueias de Lisboa (Santa Clara)
+01-07-2020,Portugal,Medidas,Limite de ajuntamentos até 20 pessoas
+01-07-2020,AML,Medidas,Limite de ajuntamentos até 10 pessoas
+01-07-2020,AML,Medidas,Limite de ajuntamentos até 5 pessoas
+01-07-2020,AML,Medidas,"Estabelecimentos fecham às 20h, excepto supermercados, que podem encerrar às 22h, mas sem venda de bebidas alcoólicas a partir das 20h"
+02-07-2020,Portugal,Medidas,Nacionalização da EFACEC
+02-07-2020,Portugal,Medidas,Ajuda financeira à TAP
