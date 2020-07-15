@@ -9,3 +9,4 @@ nltk
 string
 vaderSentiment
 IPython
+transformers
