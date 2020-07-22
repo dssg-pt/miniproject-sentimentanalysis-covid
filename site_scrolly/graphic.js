@@ -14,9 +14,10 @@ window.createGraphic = function(graphicSelector) {
 	var size = 400
 	var chartSize = size - margin * 2
 	var scaleX = null
-	var scaleR = null
-	var data = [8, 6, 7, 5, 3, 0, 9]
-	var extent = d3.extent(data)
+	var scaleY = null
+	//var dataX = [1, 2, 3, 4, 5, 6]
+	//var dataY = [79, 237, 2484, 2849, 2128, 1072]
+	//var extent = d3.extent(dataY)
 	var minR = 10
 	var maxR = 24
 	
@@ -29,61 +30,8 @@ window.createGraphic = function(graphicSelector) {
 				.ease(d3.easeQuadInOut)
 			    
 
-			var item = graphicVisEl.selectAll('.item')
-			
-			item.transition(t)
-				.attr('transform', translate(chartSize / 2, chartSize / 2))
 
-			item.select('circle')
-				.transition(t)
-				.attr('r', minR)
 
-			item.select('text')
-				.transition(t)
-				.style('opacity', 0)
-		},
-
-		function step1() {
-			var t = d3.transition()
-				.duration(800)
-				.ease(d3.easeQuadInOut)
-			
-			// circles are positioned
-			var item = graphicVisEl.selectAll('.item')
-			
-			item.transition(t)
-				.attr('transform', function(d, i) {
-					return translate(scaleX(i), chartSize / 2)
-				})
-
-			item.select('circle')
-				.transition(t)
-				.attr('r', minR)
-
-			item.select('text')
-				.transition(t)
-				.style('opacity', 0)
-		},
-
-		function step2() {
-			var t = d3.transition()
-				.duration(800)
-				.ease(d3.easeQuadInOut)
-
-			// circles are sized
-			var item = graphicVisEl.selectAll('.item')
-			
-			item.select('circle')
-				.transition(t)
-				.delay(function(d, i) { return i * 200 })
-				.attr('r', function(d, i) {
-					return scaleR(d)
-				})
-
-			item.select('text')
-				.transition(t)
-				.delay(function(d, i) { return i * 200 })
-				.style('opacity', 1)
 		},
 	]
 
@@ -102,38 +50,48 @@ window.createGraphic = function(graphicSelector) {
 			.attr('width', size + 'px')
 			.attr('height', size + 'px')
 		
-		var chart = svg.append('g')
-			.classed('chart', true)
-			.attr('transform', 'translate(' + margin + ',' + margin + ')')
+		//var chart = svg.append('g')
+		//	.classed('chart', true)
+		//	.attr('transform', 'translate(' + margin + ',' + margin + ')')
 
-		scaleR = d3.scaleLinear()
-		scaleX = d3.scaleBand()
+		scaleX = d3.scaleLinear().range([0, chartSize])
+		scaleY = d3.scaleLinear().range([chartSize, 0])
 
-		var domainX = d3.range(data.length)
+	    var valueline = d3.line()
+    		.x(function(d) { return scaleX(d.mes); })
+    		.y(function(d) { return scaleY(d.titulo); });
 
-		scaleX
-			.domain(domainX)
-			.range([0, chartSize])
-			.padding(1)
+    	// Get the data
+		d3.csv("num_noticias.csv", function(error, data) {
+			if (error) throw error;
 
-		scaleR
-			.domain(extent)
-			.range([minR, maxR])
+		    data.forEach(function(d) {
+		        d.mes = d.Mes;
+		        d.titulo = d.Titulo;
+		    });
 
-		var item = chart.selectAll('.item')
-			.data(data)
-			.enter().append('g')
-				.classed('item', true)
-				.attr('transform', translate(chartSize / 2, chartSize / 2))
-		
-		item.append('circle')
-			.attr('cx', 0)
-			.attr('cy', 0)
+		    // Scale the range of the data
+		    scaleX.domain(d3.extent(data, function(d) { return d.mes; }));
+		    scaleY.domain([0, d3.max(data, function(d) { return d.titulo; })]);
 
-		item.append('text')
-			.text(function(d) { return d })
-			.attr('y', 1)
-			.style('opacity', 0)
+		    // Add the valueline path.
+		    svg.append("path")
+		    	.data([data])
+		        .attr("class", "line")
+		        .attr("d", valueline(data));
+
+		    // Add the X Axis
+		    svg.append("g")
+		        .attr("class", "x axis")
+		        .attr("transform", "translate(0," + size + ")")
+		        .call(xAxis);
+
+		    // Add the Y Axis
+		    svg.append("g")
+		        .attr("class", "y axis")
+		        .call(yAxis);
+
+});
 	}
 
 	function setupProse() {
