@@ -1,0 +1,45 @@
+id
+titulo
+descricao
+titulo_Mobile
+subtitulo
+rubricTag
+rubrica
+tipo
+palavraChave
+tipoLayout
+isOpinion
+prioridade
+isPreview
+aoMinuto
+isFeature
+dataActualizacao
+data
+autores
+    id
+    nome
+    localizacao
+    profissaoActual
+    profissaoNaAltura
+    isExternal
+    contribuicao
+    tipo
+tags
+    id
+    nome
+    isPrincipal
+    isTimeLine
+    forcaConteudoAberto
+    isForForuns
+    isUsedInForuns
+isSponsorContent
+isClubeP
+isItemOpinion
+isMultipleRubric
+socialTitle
+isLongForm
+isHeadline
+wordCount
+extra4
+partners
+props
