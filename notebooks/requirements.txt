@@ -1,3 +1,9 @@
 pandas
 matplotlib
 geopandas
+textblob
+googletrans
+wordcloud
+re
+nltk
+string
