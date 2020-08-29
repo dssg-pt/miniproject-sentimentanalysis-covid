@@ -10,3 +10,5 @@ string
 vaderSentiment
 IPython
 transformers
+pendulum
+seaborn
