@@ -10,7 +10,10 @@ string
 vaderSentiment
 IPython
 transformers
+<<<<<<< HEAD
 pendulum
 seaborn
+=======
 sklearn
 numpy
+>>>>>>> efc181eb869dfd29670de2bc5e71e819b363235f
