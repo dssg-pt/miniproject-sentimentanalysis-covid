@@ -17,7 +17,7 @@ window.createGraphic = function(graphicSelector) {
 	var parseDate = d3.timeParse("%Y-%m-%d")
 	var formatDate = d3.timeFormat('%m')
 
-	var csv_path = '../news_count_week.csv'
+	var csv_path = '../extra/notícias/news_count_week.csv'
 	// update our chart
 	function update(step) {
 
