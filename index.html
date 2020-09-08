@@ -1,15 +1,20 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 <html lang="pt-PT">
 
         <head>
+                <title>Sentimentos durante a Pandemia</title>
+
                 <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
                 <link rel="stylesheet" type="text/css" href="style.css">
         </head>
          
         <body>
                 <header>
                         <h1>Sentimentos durante a pandemia</h1>
-
                 </header>
                  
                 <nav>
@@ -18,16 +23,33 @@
                 </nav>
 
                 <main>
-                        <h2>Lá fora</h2>
-                        <p>Tudo começou em Wuhan, na China. O ano de 2019 estava a acabar e começaram a aparecer algumas notícias tímidas de que algo se estava a passar.</p>
+                        <div id="title" class="intro">
+                        <h1>Quantidade de Notícias sobre Coronavírus no Público</h1>
+                        </div>
+                        <div class='library__hed'>
+                                <div class='library__graphic graphic'>
+                                        <div class='graphic__prose'>
+                                                <p class='trigger' data-step='-1'>Algum contexto
+                                                <p class='trigger' data-step='1'>Em Janeiro</p>
+                                                <p class='trigger' data-step='2'>Em Fevereiro</p>
+                                                <p class='trigger' data-step='3'>Em Março</p>
+                                                <p class='trigger' data-step='4'>Em Abril</p>
+                                                <p class='trigger' data-step='5'>Em Maio</p>
+                                                <p class='trigger' data-step='6'>Em Junho</p>
+                                        </div>
+                                        <div class='graphic__vis'></div>
+                                </div>
+                        </div>
 
-                        <h2>Cá dentro</h2>
-                        <p>Começaram a aparecer casos em Março, e pouco depois o Governo anunciou as medidas de quarentena.</p>
-
-                        <h2>O confinamento</h2>
-                        <p>Fechados em casa...</p>
                 </main>
-                 
+
+                <script src="./js/d3.v4.min.js"></script>
+                <script src="./js/jquery-3.1.1.min.js"></script>
+                <script src="./js/jquery.scrollstory.min.js"></script>
+
+                <script src="./js/graphic.js"></script>
+                <script src="./js/scrolly_stuff.js"></script>
+                
                 <footer>
                 </footer>
         </body>
