@@ -1,7 +1,7 @@
 window.createGraphic = function (graphicSelector) {
   "use strict";
-    var section2 = d3.select('.section2');
-	var graphicEl = section2.select('.graphic');
+    var section1 = d3.select('.section1');
+	var graphicEl = section1.select('.graphic');
 	var graphicVisEl = graphicEl.select('.graphic__vis');
 	var graphicProseEl = graphicEl.select('.graphic__prose');
 
