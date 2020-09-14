@@ -1,23 +1,25 @@
-window.createGraphic = function(graphicSelector) {
-	var graphicEl = d3.select('.graphic')
-	var graphicVisEl = graphicEl.select('.graphic__vis')
-	var graphicProseEl = graphicEl.select('.graphic__prose')
+window.createGraphic = function (graphicSelector) {
+  "use strict";
+    var section2 = d3.select('.section2');
+	var graphicEl = section2.select('.graphic');
+	var graphicVisEl = graphicEl.select('.graphic__vis');
+	var graphicProseEl = graphicEl.select('.graphic__prose');
 
-	var margin = 40
-	var size = 450
-	var chartSize = size - margin * 2
+	var margin = 40;
+	var size = 450;
+	var chartSize = size - margin * 2;
 	var axis_bottom_height = chartSize + margin;
-	var scaleX = null
-	var scaleY = null
+	var scaleX = null;
+	var scaleY = null;
 
 	var svg = graphicVisEl.append('svg')
 			.attr('width', size + 'px')
-			.attr('height', size + 'px')
+			.attr('height', size + 'px');
 
-	var parseDate = d3.timeParse("%Y-%m-%d")
-	var formatDate = d3.timeFormat('%m')
+	var parseDate = d3.timeParse("%Y-%m-%d");
+	var formatDate = d3.timeFormat('%m');
 
-	var csv_path = '../extra/notícias/news_count_week.csv'
+	var csv_path = '../extra/notícias/news_count_week.csv';
 	// update our chart
 	function update(step) {
 
@@ -47,14 +49,6 @@ window.createGraphic = function(graphicSelector) {
 			    .attr("height", function(d) { return axis_bottom_height - (scaleY(d.quantity) + margin); })
 			    .delay(function(d,i){console.log(i) ; return(i*100)})
 
-		//  } else {
-		//  		// Animation
-		//	  svg.selectAll("rect")
-		//	    .transition()
-		//	    .duration(800)
-		//	    .attr("y", function(d) { return scaleY(0) + margin; })
-		//	    .attr("height", function(d) { return axis_bottom_height - (scaleY(0) + margin); })
-		//	    .delay(function(d,i){console.log(i) ; return(i*100)})
 		  }
 
 		});

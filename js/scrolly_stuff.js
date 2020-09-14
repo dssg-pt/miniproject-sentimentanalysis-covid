@@ -2,7 +2,8 @@
 
 			function scrollstory() {
 				// select elements using jQuery since it is a dependency
-				var $graphicEl = $('.graphic')
+                var $section2 = $('.section2')
+				var $graphicEl = $section2.find('.graphic')
 				var $graphicVisEl = $graphicEl.find('.graphic__vis')
 
 				// viewport height

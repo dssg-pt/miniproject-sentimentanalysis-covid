@@ -44,11 +44,10 @@
 
 }
 
-.item circle {
-	stroke: #666;
-	stroke-width: 1px;
-	fill: #fff;
+.bar {
+    fill: steelblue;
 }
+
 
 .item text {
 	fill: #666;

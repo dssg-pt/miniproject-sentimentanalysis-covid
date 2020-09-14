@@ -1,60 +1,116 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <html lang="pt-PT">
-        <style> /* set the CSS */
 
-                .bar { fill: steelblue; }
+<head>
 
-        </style>
+  <title>Sentimentos durante a Pandemia</title>
 
-        <head>
-                <title>Sentimentos durante a Pandemia</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport"\
+        content="width=device-width,height=height-device,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-                <meta charset="utf-8"/>
-                <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-                <link rel="stylesheet" type="text/css" href="style.css">
-                <link rel='stylesheet' href='./css/graphic.css' />
-        </head>
-         
-        <body>
-                <header>
-                        <h1>Sentimentos durante a pandemia</h1>
-                </header>
-                 
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel='stylesheet' href='./css/graphic.css'/>
 
-                <main>
-                        <div id="title" class="intro">
-                        <h1>Quantidade de Notícias sobre Coronavírus no Público</h1>
-                        <div class='library__hed'>
-                                <div class='library__graphic graphic'>
-                                        <div class='graphic__prose'>
-                                                <p class='trigger' data-step='-1'>Algum contexto
-                                                <p class='trigger' data-step='1'>Em Janeiro</p>
-                                                <p class='trigger' data-step='2'>Em Fevereiro</p>
-                                                <p class='trigger' data-step='3'>Em Março</p>
-                                                <p class='trigger' data-step='4'>Em Abril</p>
-                                                <p class='trigger' data-step='5'>Em Maio</p>
-                                                <p class='trigger' data-step='6'>Em Junho</p>
-                                                <p class='trigger' data-step='7'>Em Julho</p>
-                                                <p class='trigger'
-                                                data-step='8'>Em Agosto</p>
-                                        </div>
-                                        <div class='graphic__vis'></div>
-                                </div>
-                        </div>
+</head>
 
-                </main>
+<body>
+    
+  <header>
+    <h1>Sentimentos durante a pandemia</h1>
+  </header>
 
-                <script src="./js/d3.v4.min.js"></script>
-                <script src="./js/jquery-3.1.1.min.js"></script>
-                <script src="./js/jquery.scrollstory.min.js"></script>
+  <main>
+      
+    <div class="intro">
+      <p>Uma das palavras do ano de 2020 vai certamente ser "Pandemia". Com o vírus vieram as máscaras, o álcool-gel, o distanciamento social e o confinamento.</p>
+      <!--<p>Mas vieram também as chamadas de atenção sobre a importância dos trabalhadores essenciais, de médicos a trabalhadores de supermercados, e o quão relevante é o comportamento da sociedade para o bem-estar individual.</p>-->
+      <p>Portugal teve a "sorte" de ser um dos países menos afectados. O volume de casos nunca se comparou a países como Espanha e Itália, nossos vizinhos aqui tão próximas em que o surto teve (e está a ter) consequências muito graves.</p>
+      <p>Mas não podemos menosprezar os efeitos que esta pandemia está a ter no nosso país. E uma forma que temos de ver isso é perceber como se sentiram os portugueses durante este período.</p>
+      <p>O que fizemos foi avaliar se os tweets e as notícias entre Janeiro e Junho expressavam sentimentos positivos ou negativos. Depois visualizámos em paralelo com as medidas que foram sendo tomadas pelo Governo, para tentarmos ver como é que as pessoas reagiram às decisões.</p>
+    </div>
 
-                <script src="./js/graphic.js"></script>
-                <script src="./js/scrolly_stuff.js"></script>
+    <!-- SECTION 1 -->
+    <div class="section1 library__hed">
+      <div class='library__graphic graphic'>
 
-                <footer>
-                </footer>
-        </body>
+        <div class='graphic__prose'>
+          
+        </div>
+
+        <div class='graphic__vis'></div>
+        
+      </div>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class='section2 library__hed'>
+      <div class='library__graphic graphic'>
+
+        <div class='graphic__prose'>
+          <p class='trigger' data-step='-1'>Algum contexto</p>
+          <p class='trigger' data-step='1'>Em Janeiro</p>
+          <p class='trigger' data-step='2'>Em Fevereiro</p>
+          <p class='trigger' data-step='3'>Em Março</p>
+          <p class='trigger' data-step='4'>Em Abril</p>
+          <p class='trigger' data-step='5'>Em Maio</p>
+          <p class='trigger' data-step='6'>Em Junho</p>
+          <p class='trigger' data-step='7'>Em Julho</p>
+          <p class='trigger' data-step='8'>Em Agosto</p>
+        </div>
+
+        <div class='graphic__vis'></div>
+        
+      </div>
+    </div>
+
+    <!-- SECTION 3 -->
+    <div class="section3">
+      <h2>Some things happen and stuff</h2>
+        <p>Algum contexto</p>
+        <p>Em Janeiro</p>
+        <p>Em Fevereiro</p>
+        <p>Em Março</p>
+        <p>Em Abril</p>
+        <p>Em Maio</p>
+        <p>Em Junho</p>
+        <p>Em Julho</p>
+        <p>Em Agosto</p>
+    </div>
+
+    <!-- SECTION 4 -->
+    <div class='section4 library__hed'>
+      <div class='library__graphic graphic'>
+
+        <div class='graphic__prose'>
+          <p class='trigger' data-step='-1'>Algum contexto</p>
+          <p class='trigger' data-step='1'>Em Janeiro</p>
+          <p class='trigger' data-step='2'>Em Fevereiro</p>
+          <p class='trigger' data-step='3'>Em Março</p>
+          <p class='trigger' data-step='4'>Em Abril</p>
+          <p class='trigger' data-step='5'>Em Maio</p>
+          <p class='trigger' data-step='6'>Em Junho</p>
+          <p class='trigger' data-step='7'>Em Julho</p>
+          <p class='trigger' data-step='8'>Em Agosto</p>
+        </div>
+
+        <div class='graphic__vis'></div>
+        
+      </div>
+    </div>
+  </main>
+  
+  <script src="./js/d3.v4.min.js"></script>
+  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script src="./js/jquery.scrollstory.min.js"></script>
+  <script src="./js/graphic.js"></script>
+  <script src="./js/scrolly_stuff.js"></script>
+  
+  <footer>
+  </footer>
+
+</body>
+
 </html>
