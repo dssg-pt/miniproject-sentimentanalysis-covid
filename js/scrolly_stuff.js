@@ -1,9 +1,9 @@
 (function() {
 
-			function scrollstory() {
+			function scrollstory(section, csv_path) {
 				// select elements using jQuery since it is a dependency
-                var $section1 = $('.section1')
-				var $graphicEl = $section1.find('.graphic')
+                var $section = $(section)
+				var $graphicEl = $section.find('.graphic')
 				var $graphicVisEl = $graphicEl.find('.graphic__vis')
 
 				// viewport height
@@ -13,7 +13,7 @@
 				var threequarterViewportHeight = halfViewportHeight + quarterViewportHeight
 
 				// a global function creates and handles all the vis + updates
-				var graphic = createGraphic('.graphic')
+				var graphic = createGraphic(section, csv_path)
 
 				// handle the fixed/static position of grahpic
 				var toggle = function(fixed, bottom) {
@@ -58,7 +58,11 @@
 					containerscroll: handleContainerScroll,
 				})
 			}
-
-			scrollstory()
+            
+			scrollstory('.section1',
+                        '../extra/notícias/news_count_week.csv')
+    
+            scrollstory('.section2',
+                        '../extra/notícias/news_count_month.csv')
 
 		})()
