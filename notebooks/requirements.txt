@@ -7,3 +7,11 @@ wordcloud
 re
 nltk
 string
+vaderSentiment
+IPython
+transformers
+pendulum
+seaborn
+sklearn
+numpy
+tensorflow

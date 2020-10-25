@@ -28,8 +28,8 @@ tweet = got.manager.TweetManager.getTweets(tweetCriteria)
 
 # to csv
 for i in tweet:
-
     csvWriter.writerow([i.id, i.date, i.username, i.text,i.hashtags, i.geo])
+
 
 csvFile.close()
 
