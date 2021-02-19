@@ -146,3 +146,6 @@ static
 extra/saude/download_atividade_operacional.ipynb
 .devcontainer/devcontainer.json
 Dockerfile
+
+# MacOS artifacts
+.DS_Store
