@@ -1,0 +1,17 @@
+pandas
+matplotlib
+geopandas
+textblob
+googletrans
+wordcloud
+re
+nltk
+string
+vaderSentiment
+IPython
+transformers
+pendulum
+seaborn
+sklearn
+numpy
+tensorflow
